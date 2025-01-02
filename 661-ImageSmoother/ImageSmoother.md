@@ -4,10 +4,10 @@ An image smoother is a filter of the size 3 x 3 that can be applied to each cell
 
 ## Example1:
 
-[ImageUrl](https://assets.leetcode.com/uploads/2021/05/03/smoother-grid.jpg)
+![ImageUrl](https://assets.leetcode.com/uploads/2021/05/03/smoother-grid.jpg)
 Given an m x n integer matrix img representing the grayscale of an image, return the image after applying the smoother on each cell of it.
 
-[ImageUrl](https://assets.leetcode.com/uploads/2021/05/03/smooth-grid.jpg)
+![ImageUrl](https://assets.leetcode.com/uploads/2021/05/03/smooth-grid.jpg)
 
 Input: img = [[1,1,1],[1,0,1],[1,1,1]]
 Output: [[0,0,0],[0,0,0],[0,0,0]]
