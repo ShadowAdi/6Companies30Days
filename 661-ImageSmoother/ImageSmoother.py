@@ -1,4 +1,6 @@
 from typing import List
+
+# Brute Force
 def ImageSmoother(img: List[List[int]])->List[List[int]]:
     ROWS,COLS=len(img),len(img[0])
     res=[[0]*COLS for _ in range(ROWS)]
@@ -15,6 +17,8 @@ def ImageSmoother(img: List[List[int]])->List[List[int]]:
                     cnt+=1
             res[r][c]=total//cnt
     return res
+
+
 
 ans=ImageSmoother([[1,1,1],[1,0,1],[1,1,1]])
 
